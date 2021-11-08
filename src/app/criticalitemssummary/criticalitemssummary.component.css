@@ -1,0 +1,202 @@
+.header{
+    height:41px; 
+    width: 82.5%;
+    background-color: white;
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -700px;
+    display: flex;
+    align-items: center;
+    color: #000080;
+    font-size: 110%;
+    border-bottom: 0.01px solid;
+    border-color: white white #dfdfdf white; 
+}
+.kyemesure{
+    height:40px; 
+    width: 82.5%;
+    background-color: #F3F3F3;
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -658px;
+    display: flex;
+    align-items: flex-end;
+    color: #000080;
+    font-size: 110%;
+    border-bottom: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;  
+}
+.kyemeasureresult{
+    height:101px; 
+    width: 82.6%; 
+    background-color: white; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -616px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.01px solid;
+    border-color: white white #dfdfdf white;
+}
+.kyemeasureresult > div{
+    display: flex;
+    flex-direction: column;
+}
+.kyemeasureresult > div > div{
+    font-size: 150%;
+}
+.buttom{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: #000080;
+    color: #000080;
+}
+.buttom:hover{
+    background-color: #000080;
+    color: white;
+    cursor: pointer;
+}
+.filterbox{
+    height: 61px; 
+    width: 82.5%; 
+    background-color: white; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -452.8px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px dashed;
+    border-color: white white #dfdfdf white;
+}
+.filterbox>form:nth-child(1){
+    margin-left: 62px;
+}
+.filterbox>form:nth-child(2){
+    margin-left: 108px;
+}
+.tabelheader{
+    height:40px; 
+    width: 1269px; 
+    background-color: #F3F3F3; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -514px;
+    display: flex;
+    align-items: flex-end;
+    color: #000080;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;
+}
+.tabelContener{
+    height: 305px; 
+    width: 1250px; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -390px;
+    display: flex;
+    justify-content: center;
+}
+.tabel{
+   border-collapse: collapse;
+   margin: 0px 0px 0px 20px;
+   margin-bottom: 100px;
+}
+.tabelhead{
+    background-color: #B8B4B4; 
+}
+.tabelhead > td{
+    padding:0px 70px 0px 10px;
+    border-right: 2px solid white;
+    font-size: 90%;
+    text-align: left;
+} 
+.tableData > td{
+    padding:0px 70px 0px 10px;
+    border-bottom: 0.01px solid #B8B4B4;
+    font-size: 75%;
+    font-weight: lighter;
+    text-align: left;
+}
+.tableDatalast > td{
+    padding:0px 70px 0px 10px;
+    border-bottom: 2px solid #B8B4B4;
+    font-size: 75%;
+    font-weight: lighter;
+    text-align: left;
+}
+.numbers{
+    text-align: right;
+}
+.moreoptions{
+    height: 50px; 
+    width: 82%; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.moreoptions > form > label{
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+.leftlast, .left, .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 150px;
+}
+.leftlast>img{
+    width: 9px;
+    padding: 4px;
+    cursor: pointer;
+}
+.left>img{
+    width: 6.5px;
+    padding: 3px;
+    cursor: pointer;
+    margin: 0px 5px 0px 5px; 
+}
+.right>img{
+    width: 6.5px;
+    padding: 3px;
+    cursor: pointer; 
+    margin: 0px 5px 0px 5px;
+}
+.downloadbutton{
+    height: 50px; 
+    width: 82%; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -180px;
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+}
+.button{
+    padding: 0px 20px;
+    margin-right: 8px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 80%;
+    z-index: 1;
+}
+.dowicon{
+    width: 20px;
+}
+.button:hover{
+    cursor: pointer;
+    border: 2px solid #000080;
+}

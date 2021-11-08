@@ -1,0 +1,40 @@
+.header{
+    background-color: #000080;
+    height: 50px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.loginlogo{
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 25px 0px 1330px;
+    cursor: pointer;
+    border: 2px solid #000080;
+}
+
+.sorinlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 29px;
+}
+
+.loginlogo:hover{
+    border: 2px solid white;
+}
+
+.loginlogo> img{
+    width: 20px;  
+}
+.sorinlogo> img{
+    width: 80px;
+}

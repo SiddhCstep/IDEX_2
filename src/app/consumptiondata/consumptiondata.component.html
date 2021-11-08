@@ -1,0 +1,68 @@
+<div class="Consumptiondata">
+    Consumption Data
+</div>
+<div class="Consumptiondatafilter">
+
+  <div class="first"> 
+    <div>
+        <form>
+            <label for="filter">Class :</label>
+            <select class="inputbox">
+                <option>All</option>
+                <option>OPV</option>
+                <option>R</option>
+              </select>
+        </form>
+    </div>
+    <div>
+        <form>
+            <label for="filter">Customer :</label>
+            <select class="inputbox">
+                <option>All</option> 
+                <option>4495</option>
+                <option>4471</option>
+                <option>4432</option>
+                <option>4428</option>
+            </select>
+        </form>
+    </div>
+    <div>
+        <form>
+            <label for="filter">ABC :</label>
+           <select class="inputbox">
+            <option>All</option>   
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+           </select>
+        </form> 
+    </div>
+    <div>
+        <form>
+            <label for="filter">VED :</label>
+            <select class="inputbox">
+                <option>All</option>
+                <option>V</option>
+                <option>E</option>
+                <option>D</option>
+            </select>    
+        </form>
+    </div>
+</div> 
+
+
+<div class="second">
+    <div>
+        <div>
+            <label for="volume">Period</label>
+            <input type="range" min="0" max="11">
+        </div>
+    </div>
+    <div>
+       <button type="button" class="buttom">
+              Filter
+       </button>
+    </div>
+</div>  
+</div>
+<router-outlet></router-outlet>

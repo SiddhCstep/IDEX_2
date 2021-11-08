@@ -1,0 +1,41 @@
+<div class="header">
+    Search Equipment 
+</div>
+<div class="searchequipmentfilter">
+    <div class="first">
+        <div>
+            <form>
+                <label for="filter">Code :</label>
+                <input type="text">
+            </form>
+        </div>
+        <div>
+            <form>
+                <label for="filter">Description :</label>
+                <input type="text">
+            </form>
+        </div>
+        <div>
+            <form>
+                <label for="filter">Ship Age :</label>
+                <input type="text">
+            </form>
+        </div>
+    </div>
+
+
+    <div class="second">      
+        <div>
+            <form>
+                <label for="filter">Class :</label>
+                <input type="text">
+            </form>
+        </div>
+        <div>
+            <button type="button" class="buttom" [routerLink]="['/searchequipment/searchresult']">
+                Search
+            </button>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

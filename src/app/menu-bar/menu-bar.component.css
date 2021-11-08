@@ -1,0 +1,106 @@
+.MenuBar{
+    background-color: #F3F3F3; 
+    height: 700px; 
+    width: 264px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+}
+
+.MenuBar > div:nth-child(1){
+  margin: 10px 10px 0px 20px;
+   width: 200px;
+    height: 40px;
+    color: black;
+    font-size: 115%;
+    border: 1px solid #F3F3F3;
+    display: flex;
+}
+.MenuBar > div:nth-child(2){
+  margin: 0px 10px 0px 20px;
+   width: 200px;
+    height: 40px;
+    color: black;
+    font-size: 115%;
+    border: 1px solid #F3F3F3;
+    display: flex;
+}
+.MenuBar > div:nth-child(4){
+  margin: 0px 10px 0px 20px;
+  width: 200px;
+  height: 40px;
+  color: black;
+  font-size: 115%;
+  border: 1px solid #F3F3F3;
+  display: flex;
+}
+.MenuBar > div:nth-child(6){
+  margin: 0px 10px 0px 20px;
+  width: 200px;
+  height: 40px;
+  color: black;
+  font-size: 115%;
+  border: 1px solid #F3F3F3;
+  display: flex;
+}
+.submenu{
+  padding: 0px 0px 0px 40px;
+  margin: -9px 0px 0px 45px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  font-size: 90%;
+}
+.submenu > div > a{
+  color: black;
+  text-decoration: none;
+}
+.menucontanerhome:hover{
+  cursor: pointer;
+  color: #000080;
+}
+.menucontanerplan:hover{
+  cursor: pointer;
+  color: #000080;
+}
+.menucontanermonitor:hover{
+  cursor: pointer;
+  color: #000080;
+}
+.menucontanerutilities:hover{
+  cursor: pointer;
+  color: #000080;
+}
+.submenu >div > a:hover{
+  cursor: pointer;
+  color: #000080;
+}
+.menucontanerhome{
+  padding: 0px 87px 0px 0px;
+}
+.menucontanerplan{
+    padding: 0px 104px 0px 0px;
+}
+.menucontanermonitor{
+  padding: 0px 70px 0px 0px;
+}
+.menucontanerutilities{
+  padding: 0px 70px 0px 0px;
+}
+
+.MenuBar > div > div{
+   margin: 2px;
+   /* border: 1px solid black; */
+   display: flex;
+   align-items: center;
+   /* padding: 10px; */
+}
+
+.icon{
+    margin: 5px;
+    width: 25px;
+}
+.submenuicon{
+  width: 7px;
+  visibility: hidden;
+}

@@ -1,0 +1,33 @@
+.kyemeasure{
+    height:40px; 
+    width: 1269px; 
+    background-color: #F3F3F3; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -658px;
+    display: flex;
+    align-items: flex-end;
+    color: #000080;
+    font-size: 110%;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;
+}
+
+.kyemeasureresult{
+    height:100px; 
+    width: 1253px; 
+    background-color: white; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -598px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.kyemeasureresult > div{
+    display: flex;
+    flex-direction: column;
+}
+.kyemeasureresult > div > div{
+    font-size: 150%;
+}   

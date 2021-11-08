@@ -1,0 +1,277 @@
+.pageheader{
+    height: 40px;
+   width: 82.5%;
+    background-color: white;
+    margin-top: -700px;
+    margin-left: 264px;
+    color: #000080;
+    display: flex;
+    align-items: center;
+    font-size: 115%;
+}
+.kyemeasure{
+    height:40px; 
+   width: 82.5%; 
+    background-color: #F3F3F3; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 1px;
+    display: flex;
+    align-items: flex-end;
+    color: #000080;
+    font-size: 110%;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;
+}
+
+.kyemeasureresult{
+    height:100px; 
+   width: 82.5%;  
+    background-color: white; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.kyemeasureresult > div{
+    display: flex;
+    flex-direction: column;
+}
+.kyemeasureresult > div > div{
+    font-size: 150%;
+} 
+.openrefits{
+    height:40px; 
+   width: 82.5%; 
+    background-color: #F3F3F3; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 148px;
+    display: flex;
+    align-items: flex-end;
+    color: #000080;
+    font-size: 110%;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;  
+}  
+.openrefitstable{
+    height:190px; 
+    width: 1253px;  
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 191px;
+    display: flex;
+    justify-content: center;
+    
+}
+.tabel{
+    border-collapse: collapse;
+}
+.tabelhead > td{
+    background-color: #B8B4B4; 
+    padding:0px 20px 0px 10px;
+    border-right: 2px solid white;
+    font-size: 100%;
+}
+.tableData > td{
+    padding:0px 20px 0px 10px;
+    border-bottom: 0.01px solid #e4e4e4;
+    font-size: 80%;
+    font-weight: lighter;
+}
+.tableDatalast > td{
+    padding:0px 20px 0px 10px;
+    border-bottom: 2px solid #B8B4B4;
+    font-size: 80%;
+    font-weight: lighter;
+}
+.numbers{
+    text-align: right;
+}
+.detaillist{
+    height:40px; 
+   width: 82.5%; 
+    background-color: #F3F3F3; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 430px;
+    display: flex;
+    align-items: flex-end;
+    color: #000080;
+    font-size: 110%;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;  
+}
+
+.detaillisttable{
+    height:190px; 
+    width: 1253px;  
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 472px;
+    display: flex;
+    justify-content: center;
+}
+.atabelhead>td{
+   background-color: #B8B4B4;
+   padding: 0px 120px 0px 10px;
+   border-right: 2px solid white;
+}
+.atableData>td{
+    padding: 0px 120px 0px 10px;
+    font-size: 80%;
+    border-bottom: 0.01px solid #e4e4e4;
+}
+.atableDatalast>td{
+    padding: 0px 120px 0px 10px;
+    font-size: 80%;
+    border-bottom: 2px solid #B8B4B4;
+}
+.moreoptions{
+    height: 50px; 
+    width: 82%; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.moreoptions > form > label{
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+.leftlast, .left, .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 150px;
+}
+.leftlast>img{
+    width: 9px;
+    padding: 4px;
+    cursor: pointer;
+}
+.left>img{
+    width: 6.5px;
+    padding: 3px;
+    cursor: pointer;
+    margin: 0px 5px 0px 5px; 
+}
+.right>img{
+    width: 6.5px;
+    padding: 3px;
+    cursor: pointer; 
+    margin: 0px 5px 0px 5px;
+}
+.downloadbutton{
+    height: 50px; 
+    width: 80.5%; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 380px;
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+}
+.button{
+    padding: 0px 20px;
+    margin-right: 8px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 80%;
+    z-index: 1;
+}
+.dowicon{
+    width: 20px;
+}
+.button:hover{
+    cursor: pointer;
+    border: 2px solid #000080;
+}
+
+
+
+
+
+
+.moreoptions1{
+    height: 50px; 
+    width: 82.5%; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.moreoptions1 > form > label{
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+.leftlast1, .left1, .right1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 150px;
+}
+.leftlast1>img{
+    width: 9px;
+    padding: 4px;
+    cursor: pointer;
+}
+.left1>img{
+    width: 6.5px;
+    padding: 3px;
+    cursor: pointer;
+    margin: 0px 5px 0px 5px; 
+}
+.right1>img{
+    width: 6.5px;
+    padding: 3px;
+    cursor: pointer; 
+    margin: 0px 5px 0px 5px;
+}
+.downloadbutton1{
+    height: 50px; 
+    width: 80.5%; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 660px;
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+}
+.button1{
+    padding: 0px 20px;
+    margin-right: 8px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 80%;
+    z-index: 1;
+}
+.dowicon1{
+    width: 20px;
+}
+.button1:hover{
+    cursor: pointer;
+    border: 2px solid #000080;
+}

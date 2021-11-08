@@ -1,0 +1,60 @@
+.pageheader{
+    height: 40px;
+    width: 82%;
+    background-color: white;
+    margin-top: -700px;
+    margin-left: 264px;
+    color: #000080;
+    display: flex;
+    align-items: center;
+    font-size: 115%;
+}
+.selectperiod{
+    height:40px; 
+    width: 82%; 
+    background-color: #F3F3F3; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 1px;
+    display: flex;
+    align-items: flex-end;
+    color: #000080;
+    font-size: 110%;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;
+}
+.slectsection{
+    height:100px; 
+    width: 1253px;  
+    background-color: white; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.01px solid;
+    border-color: white white #dfdfdf white;
+}
+/* .inputbox{
+    width: 100px;
+    height: 25px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px dashed #d8d8d8;
+    cursor: pointer;
+} */
+.buttom{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: #000080;
+    color: #000080;
+}
+.buttom:hover{
+    background-color: #000080;
+    color: white;
+    cursor: pointer;
+}

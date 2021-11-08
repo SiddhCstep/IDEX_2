@@ -1,0 +1,132 @@
+.tabelheader{
+    height:40px; 
+    width: 1269px; 
+    background-color: #F3F3F3; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -518px;
+    display: flex;
+    align-items: flex-end;
+    color: #000080;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;
+}
+.tabelContener{
+    height: 305px; 
+    width: 1272px; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -476px;
+    display: flex;
+    justify-content: center;
+}
+.tabel{
+   border-collapse: collapse;
+   margin: 0px 0px 0px 20px;
+   margin-bottom: 100px;
+}
+.tabelhead{
+    background-color: #B8B4B4; 
+}
+.tabelhead > td{
+    padding:0px 98px 0px 10px;
+    border-right: 2px solid white;
+    font-size: 90%;
+} 
+.tableData > td{
+    padding:0px 98px 0px 10px;
+    border-bottom: 0.01px solid #B8B4B4;
+    font-size: 75%;
+    font-weight: lighter;
+}
+.tableDatalast > td{
+    padding:0px 98px 0px 10px;
+    border-bottom: 2px solid #B8B4B4;
+    font-size: 75%;
+    font-weight: lighter;
+}
+.numbers{
+    text-align: right;
+}
+.moreoptions{
+    height: 50px; 
+    width: 1270px; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    /* border: 1px solid black; */
+}
+.moreoptions > form > label{
+    font-weight: lighter;
+    font-size: 70%;
+}
+.inputbox{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px dashed black;
+}
+.leftlast, .left, .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 150px;
+}
+.leftlast>img{
+    width: 9px;
+    padding: 4px;
+    cursor: pointer;
+}
+.left>img{
+    width: 6.5px;
+    padding: 3px;
+    cursor: pointer;
+    margin: 0px 5px 0px 5px; 
+}
+.right>img{
+    width: 6.5px;
+    padding: 3px;
+    cursor: pointer; 
+    margin: 0px 5px 0px 5px;
+}
+.button{
+text-decoration: none;
+color: black;
+}
+
+
+.downloadbutton{
+    height: 50px; 
+    width: 82%; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -268px;
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+    z-index: 1;
+}
+.button1{
+    padding: 0px 20px;
+    margin-right: 8px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 80%;
+}
+.dowicon{
+    width: 20px;
+}
+.button1:hover{
+    cursor: pointer;
+    border: 2px solid #000080;
+}

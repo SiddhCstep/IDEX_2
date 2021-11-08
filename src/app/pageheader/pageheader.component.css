@@ -1,0 +1,14 @@
+.pageheader{
+    height:40px; 
+    width: 1269px; 
+    background-color: white; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: -700px;
+    display: flex;
+    align-items: center;
+    color: #000080;
+    border: 0.01px solid;
+    border-color: white white #dfdfdf white;
+    font-size: 115%;
+}

@@ -1,0 +1,263 @@
+.pageheader{
+    height: 40px;
+    width: 82.5%;
+    background-color: white;
+    margin-top: -700px;
+    margin-left: 264px;
+    color: #000080;
+    display: flex;
+    align-items: center;
+    font-size: 115%;
+}
+.kyemeasure{
+    height:40px; 
+    width: 82.5%; 
+    background-color: #F3F3F3; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 1px;
+    display: flex;
+    align-items: flex-end;
+    color: #000080;
+    font-size: 110%;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;
+}
+
+.kyemeasureresult{
+    height:100px; 
+    width: 1253px;  
+    background-color: white; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.kyemeasureresult > div{
+    display: flex;
+    flex-direction: column;
+}
+.kyemeasureresult > div > div{
+    font-size: 150%;
+}
+.barchart{
+    height:40px; 
+    width: 82.5%; 
+    background-color: #F3F3F3; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 148px;
+    display: flex;
+    color: #000080;
+    font-size: 110%;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;  
+}
+.first{
+    border-right: 2px dashed #bbbbbb;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+} 
+.second{
+    width: 50%;
+    display: flex;
+    margin-left: 5px;
+    align-items: flex-end;
+}
+.inputbox{
+    margin-left: 5px;
+}
+
+.barchartcontaner{
+    height:350px; 
+    width: 82.5%; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 190px;
+    display: flex;
+    color: #000080;
+    font-size: 110%;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;   
+}
+.barchartcontanerfirst{
+    width: 47.5%;
+    border-right: 10px solid #F3F3F3;
+    padding: 0px 15px 0px 10px;
+}
+.barchartcontanersecond{
+    width: 50%;
+}
+.filterbox{
+    height:40px; 
+    width: 82.5%; 
+    background-color: #F3F3F3; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 542px;
+    display: flex;
+    align-items: flex-end;
+    color: #000080;
+    font-size: 110%;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3; 
+}
+.filterboxresult{
+    height:150px; 
+    width: 82.5%; 
+    background-color: white; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 581px;
+    display: flex;
+    flex-direction: column;
+    font-size: 110%;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3; 
+}
+.firstfilter{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secondfilter{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.secondfilter > form:nth-child(1){
+    margin-left: 69px;
+}
+.secondfilter > form:nth-child(2){
+    margin-left: 132px;
+}
+.secondfilter > form:nth-child(3){
+    margin-left: 168px;
+}
+
+.tableheader{
+    height:40px; 
+    width: 82.5%; 
+    background-color: #F3F3F3; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 732px;
+    display: flex;
+    align-items: flex-end;
+    color: #000080;
+    font-size: 110%;
+    border: 0.01px solid;
+    border-color: #F3F3F3 #F3F3F3 #dfdfdf #F3F3F3;
+}
+.tabelContener{
+    height: 305px; 
+    width: 1250px; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 774px;
+    display: flex;
+    justify-content: center;
+}
+.tabel{
+   border-collapse: collapse;
+   margin: 0px 0px 0px 20px;
+   margin-bottom: 100px;
+}
+.tabelhead{
+    background-color: #B8B4B4; 
+}
+.tabelhead > td{
+    padding:0px 45px 0px 10px;
+    border-right: 2px solid white;
+    font-size: 90%;
+    text-align: left;
+} 
+.tableData > td{
+    padding:0px 45px 0px 10px;
+    border-bottom: 0.01px solid #B8B4B4;
+    font-size: 75%;
+    font-weight: lighter;
+    text-align: left;
+}
+.tableDatalast > td{
+    padding:0px 45px 0px 10px;
+    border-bottom: 2px solid #B8B4B4;
+    font-size: 75%;
+    font-weight: lighter;
+    text-align: left;
+}
+.numbers{
+    text-align: right;
+}
+.moreoptions{
+    height: 50px; 
+    width: 82%; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moreoptions > form > label{
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+.leftlast, .left, .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 150px;
+}
+.leftlast>img{
+    width: 9px;
+    padding: 4px;
+    cursor: pointer;
+}
+.left>img{
+    width: 6.5px;
+    padding: 3px;
+    cursor: pointer;
+    margin: 0px 5px 0px 5px; 
+}
+.right>img{
+    width: 6.5px;
+    padding: 3px;
+    cursor: pointer; 
+    margin: 0px 5px 0px 5px;
+}
+.downloadbutton{
+    height: 50px; 
+    width: 82%; 
+    position: absolute; 
+    margin-left: 264px;
+    margin-top: 980px;
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+}
+.button{
+    padding: 0px 20px;
+    margin-right: 8px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 80%;
+}
+.dowicon{
+    width: 20px;
+}
+.button:hover{
+    cursor: pointer;
+    border: 2px solid #000080;
+}
